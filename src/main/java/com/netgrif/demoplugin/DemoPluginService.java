@@ -7,7 +7,7 @@ import com.netgrif.plugin.core.annotations.EntryPointMethod;
 @EntryPoint(value = "demoPluginService")
 public class DemoPluginService {
 
-    @EntryPointMethod(name = "showCaseTitle")
+    @EntryPointMethod
     public String getMessage(String name) {
         return "Hello " + name + "!";
     }
